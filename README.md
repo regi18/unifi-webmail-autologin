@@ -3,4 +3,4 @@ Automatically login to UniFi's webmail portal (the same login system is used to 
 
 # Installation
 
-[Click here](https://github.com/regi18/unifi-webmail-autologin/raw/main/unifi-webmail-autologin.user.js) to open the install panel.
+[Click here](https://github.com/regi18/unifi-webmail-autologin/raw/master/unifi-webmail-autologin.user.js) to open the install panel.
