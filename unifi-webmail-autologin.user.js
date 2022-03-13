@@ -6,6 +6,7 @@
 // @author          regi18
 // @description     Automatically login to UniFi's webmail portal (the same login system is used to log into the Gsuite, i.e. Google, account)
 // @match           https://shibboleth2-mail.unifi.it/idp/Authn/UserPassword
+// @match           https://shibbidp-mail.unifi.it/idp/Authn/UserPassword
 // @grant           GM.getValue
 // @grant           GM_getValue
 // @grant           GM.setValue
