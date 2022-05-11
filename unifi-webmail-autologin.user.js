@@ -41,6 +41,8 @@ async function checkIfWrongCredentials() {
     let wrongCredentialsBanner = document
         .evaluate('//b[contains(., "Account non attivo o inesistente.")]', document, null, XPathResult.ANY_TYPE, null)
         .iterateNext();
+    
+    wrongCredentialsBanner = wrongCredentialsBanner || document.evaluate('//b[contains(., "Le credenziali inserite non sono corrette.")]', document, null, XPathResult.ANY_TYPE, null).iterateNext();
 
     if (wrongCredentialsBanner) {
         // Deletes the saved (wrong) credentials
